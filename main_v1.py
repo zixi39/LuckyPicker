@@ -313,6 +313,7 @@ if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
+    MainWindow.setFixedSize(1100, 734)
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
     MainWindow.show()
